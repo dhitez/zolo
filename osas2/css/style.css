@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Tahoma';
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: auto;
+	max-width: 1080px;
+}
+
+header{
+	background: gray;
+	padding: 15px 70px 10px;
+}
+
+
+.logo{
+	display: flex;
+	flex-direction: raw;
+	justify-content: space-between;
+}
+
+.logo p{
+	font-size: 24px;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.intro{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+
+.text p{
+	font-size: 20px;
+}
+
+.img img{
+	width: 700px;
+	height: 300px;
+}
